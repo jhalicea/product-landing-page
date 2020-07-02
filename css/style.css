@@ -145,6 +145,8 @@ ul {
     transition: all ease 0.35s;
 }
 
+
+
 @media (max-width: 1000px) {
     #header-contact {
         font-size: 16px;
@@ -163,6 +165,23 @@ ul {
     #header-social {
         margin-right: 40px;
     }
+}
+
+@media (max-width: 500px) {
+    #header-contact {
+        margin-left: 0px;
+    }
+    
+    #header-info {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #header-social {
+        margin: 0px;
+        display: none;
+    }
+
 }
 
 /* NAVIGATION LINKS */
@@ -288,6 +307,22 @@ width: 100%;
     }
 }
 
+@media (max-width: 500px) {
+    #header-nav {
+        justify-content: space-evenly;
+    }
+
+    #head-img {
+        margin: 0;
+    }
+
+    #nav-bar {
+        margin: 0;
+        align-self: center;
+    }
+}
+
+
 /* ABOUT */
 /* ABOUT */
 /* ABOUT */
@@ -333,6 +368,12 @@ width: 100%;
 
     #about-jon {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    #about-jon {
+        text-align: justify;
     }
 }
 
@@ -393,7 +434,7 @@ width: 100%;
         "nmt"
         "swedish";
     }
-    }
+}
 
 #modalities h2 {
     grid-area: title;
@@ -453,6 +494,19 @@ width: 100%;
     box-shadow: 0 20px 40px rgba(0,0,0,0.16);
 }
 
+@media (max-width: 500px) {
+    #mod-container {
+        margin: 0;
+    }
+    .box {
+        padding: 40px 50;
+        border-radius: 0;
+    }
+    .box p {
+        text-align: justify;
+    }
+}
+
 #yt-video {
     background-color: #f3fdfe;
     padding: 80px 0;
@@ -462,6 +516,16 @@ width: 100%;
 @media (max-width: 960px) {
     #video {
         width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    #yt-video {
+        padding: 30px 0 80px 0;
+    }
+    
+    #video {
+        width: 350px;
     }
 }
 
