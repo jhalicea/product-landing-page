@@ -6,7 +6,7 @@
 
  - Live Preview of my project [here](https://jhalicea.github.io/product-landing-page/).
 
- -Source: [FreeCodeCamp Curriculum: Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
+ - Source: [FreeCodeCamp Curriculum: Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
 
 ## Requirements
 
@@ -28,6 +28,7 @@
 
  - Practiced using CSS selectors and its hierarchy.
 
-##Notes
- I tried to copy the design of my Massage Therapy business  https://jonalicea.com but I still need to learn more about ::Before ::After and position absolute, because of this I couldn't copy some UI design.
+## Notes
+
+I tried to copy the design of my Massage Therapy business  https://jonalicea.com but I still need to learn more about ::Before ::After and position absolute, because of this I couldn't copy some UI design.
 
